@@ -1,0 +1,81 @@
+*{margin: 0px;}
+.sombrero{
+    background-color: rgb(233, 180, 7);
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    margin: 30px;
+    position: relative;
+    top: 40px;
+    left: 250px;
+    
+}
+.sombrero2{
+    background-color: rgb(233, 173, 7);
+    width: 600px;
+    height: 150px;
+    
+    margin: 30p;
+    border: 50px;
+    
+    border-radius: 180px;
+
+    position: relative;
+    top: 0px;
+    left: 150px;
+    text-align: center;
+    
+}
+
+
+.ojo1{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+   
+    
+    border-radius: 360px;
+}
+.ojo2{
+    background-color: rgb(134, 200, 231);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    
+    
+    border-radius: 360px;
+}
+
+.pupila{
+    background-color: deeppink;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40px; /* se mueve respecto al padre el cual es  de posicion reltiva*/
+    left: 40px;
+    border: 7px;
+    
+    border-radius: 360px;
+}
+
+
+
+.cabeza{
+    background-color: rgb(41, 7, 233);
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    
+    position: relative;
+    top: 0px;
+    left: 120px;
+    
+    border: 7px;
+    
+    border-radius: 380px;
+} 

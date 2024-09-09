@@ -1,0 +1,49 @@
+*{margin: 0px;}
+.caja1{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    position:fixed;
+    top: 200px;
+    left: 200px;
+}
+.caja2{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+}
+.caja3{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+.caja3hijo{
+    background-color: deeppink;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px; /* se mueve respecto al padre el cual es  de posicion reltiva*/
+    left: 20px;
+}
+.caja4{
+    background-color: aqua;
+    width: 150px;
+    height: 150x;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.caja5{
+    background-color: deeppink;
+    width: 150px;
+    height: 150px;
+    position: sticky;
+    top: 10px;
+    left: 10px;
+}
+
+
