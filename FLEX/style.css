@@ -1,0 +1,51 @@
+.contenedor-flexible{
+    background-color: chartreuse;
+    padding: 20px;
+    display: flex;
+   flex-direction: row;
+   /*flex-direction: row-reverse;*/
+   /* flex-direction: column;*/
+   /*flex-direction: column-reverse;*/
+   flex-wrap:wrap-reverse ;/* su funcion es ajustar el contenido 
+   si la fila esta ajustada crea otra fila para que el 
+   contenido se ajuste se conbina con row  o column*/
+   height: 400px;
+   
+}
+.item-flexible{
+ background-color: cyan;
+ margin: 5px;
+ font-size: 30px;
+ width: 35%;
+ align-items: baseline;  /* no hace nada si el padre .contenedor flexible no 
+ tiene dimenciones height altura o ancho*/
+}
+
+.contnedor{
+    background-color: blueviolet;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.caja1{
+    background-color:yellowgreen ;
+    margin: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.contenido{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+
+.item{
+    background-color: cyan;
+    margin: 5px;
+    font-size: 30px;
+    width: 50%;
+    align-items: baseline;
+}
+
