@@ -1,0 +1,72 @@
+.contenedor{
+    background-color: rebeccapurple;
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    display: grid;
+     grid-gap: 10px;  
+    /* grid-template-columns: 150px 50px 100px;
+    grid-template-rows: 100px 100px 50px 100px;
+ */
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-areas:"header header header" 
+                        "nav nav nav"
+                        "section section ads"
+                        " foot foot foot"
+                        " rrss rrss rrss";
+
+}
+.contenedor .header{
+    background-color: yellow;
+    grid-column:  header;
+}
+
+.contenedor .nav{
+    background-color: rgb(9, 255, 0);
+    grid-column:  nav;
+}
+
+.contenedor .secction{
+    background-color: rgb(255, 0, 212);
+    grid-column: secction;
+}
+
+.secction{
+  
+    display: flex;
+    flex-direction: row;  
+}
+.contenido{
+    background-color: brown;
+    margin: 10px;
+}
+
+.contenedor .ads{
+    background-color: rgb(206, 206, 189);
+    grid-column: ads;
+}
+.adshijo{
+    background-color: rgb(241, 140, 17);
+    margin: 10px;
+}
+
+.contenedor .foot{
+    background-color: red;
+    grid-column:foot;
+}
+
+.contenedor .rrss{
+    background-color: rgb(255, 238, 0);
+    grid-column:  rrss;
+}
+.rrss{
+    display: flex;
+    flex-direction: row;
+}
+
+.rrsshijo{
+    background-color: aqua;
+    width: 34%;
+    margin-left: 10px;
+}
